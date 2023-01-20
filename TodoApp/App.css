@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.header{
+	min-height: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+.field{
+	display: flex;
+}
+.text{
+	padding: 10px 15px;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	margin: 0 30px;
+	background: #dedede; 
+}
+.add{
+	background: blue;
+	color: white;
+	border-radius: 5px;
+	outline: none;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.add:hover{
+	border: 2px solid lightblue;
+}
+.pending{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+h1{
+	margin: 10px 0;
+}
+h2{
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid black;
+}
+.item{
+	width: 300px;
+	min-width: 30%;
+	background: lightblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid blue;
+}
+.remove{
+	background: red;
+	color: white;
+	padding:5px;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.remove:hover{
+	border:2px solid rgba(255,0,0,0.3);
+}
+
+
+
+/* mobile network */
+@media  screen and (max-width:500px)  {
+	.field{
+		min-height: 20vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.add{
+		padding: 10px;
+		width: 80%;	
+		align-self: center;
+	}
+	.item{
+		width: 80%;
+	}
+}
+
+
+
+
+
+
+

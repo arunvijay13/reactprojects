@@ -1,0 +1,14 @@
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.graph-container{
+	min-height: 50vh;
+	width: 100%;
+	border: 1px solid red;
+}
+.graph{
+	width: 85%;
+}
